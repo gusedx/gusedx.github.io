@@ -23,7 +23,7 @@ Summary of my personal projects
       - **Frontend**: React, Next.js, TypeScript, CSS Modules
       - **Backend**: Python, Flask
       - **Database**: MongoDB
-      - **AI Integration**: Google GenAI (Gemini) API
+      - **AI Integration**: Configured GenAI API
       - **Containerization**: Docker & Docker Compose
   
 - **InvestmentTracker**
