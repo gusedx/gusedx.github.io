@@ -28,7 +28,7 @@ Summary of my personal projects
   
 - **InvestmentTracker**
    
-      *Overview & Goals:*
+    *Overview & Goals:*
 
         A full-stack web application for tracking ETF (Exchange-Traded Fund) investments and transactions.
    
@@ -40,7 +40,7 @@ Summary of my personal projects
          - Holdings distribution – visualise the percentage split of holdings across different ETFs.
          - Multi-portfolio support – organise data into separate named files so multiple portfolios can be tracked independently.
    
-      *Main Features:*
+    *Main Features:*
    
          | Feature | Description |
          |---|---|
@@ -64,7 +64,7 @@ Summary of my personal projects
          | Price  | Price per unit | `85.50` |
          | Date   | Transaction date (`YYYY-MM-DD`) | `2024-01-15` |
    
-      *Technology Stack:*
+    *Technology Stack:*
    
       -**Backend:**
          - ASP.NET Core 8 – REST API
