@@ -8,6 +8,9 @@ Summary of my personal projects
   
 Travel Planning Agent is an AI-powered full-stack web application designed to simplify the entirety of the travel   itinerary creation process. The goal of this project is to provide a central hub where users can effortlessly manage travel destinations, explore specific places with instant AI-generated insights, and automatically construct structured daily itineraries. The user can also search for flights and / or rail options for travel between two places at a specified date. Flight / train options including time and price are shown to the user. 
 
+<img width="1912" height="826" alt="TravelPlanningAgentV2" src="https://github.com/user-attachments/assets/b872a06c-7a26-4de1-bc46-7320c295975e" />
+
+
 *Main Features:*
     
   - **Destinations Management**: Add, view, edit, and delete travel destinations
