@@ -29,6 +29,46 @@ Travel Planning Agent is an AI-powered full-stack web application designed to si
   - **AI Integration**: Configured GenAI API
   - **Containerization**: Docker & Docker Compose
   - **Testing**: Pytest, Jest, React Testing Library, Playwright
+
+**TravelPlanningAgent**
+
+*Overview & Goals:*
+
+Designed to guide students and learners through complex concepts using the **Socratic method**. Instead of simply giving away answers or dumping dense paragraphs, the AI tutor asks targeted, thought-provoking questions, validates foundational knowledge step-by-step, and uses a locked-down web search tool (`.edu` and `wikipedia.org` only) to cross-check educational facts in real time.
+
+<img width="1882" height="825" alt="TutorAgent" src="https://github.com/user-attachments/assets/a8ca3e41-2fb8-46ff-bc62-768c755344b1" />
+
+
+*Main Features:*
+
+- Socratic Dialogue Engine: Built using **LangGraph** and Google GenAI (`gemini-2.5-flash`), configured to stimulate critical thinking and active learning.
+- Academic Grounding (Tavily Search): Constrained tool execution strictly scoped to verified educational domains (`site:edu` or `site:wikipedia.org`).
+- Modern Responsive React UI:
+  - Dark-mode interface built with React, TypeScript, Tailwind CSS, and Vite.
+  - Rich Markdown Formatting: Preserves line breaks, styled tables, blockquotes, and lists.
+  - Syntax-Highlighted Code Blocks: Code blocks rendered via `rehype-highlight` with one-click copy buttons.
+  - Live Tool Execution Badges: Transparent, expandable badges showcasing whenever the agent conducts academic searches.
+  - Quick-Start Prompts & Health Status: Interactive topic cards and real-time backend connection status indicator.
+- FastAPI Backend: Clean asynchronous API with CORS support and flexible message payload processing.
+
+*Technology Stack:*
+   
+- **Backend:**
+  - Python 3.10+
+  - LangChain / LangGraph: StateGraph orchestration for AI workflows and tool dispatching.
+  - Google GenAI / Gemini 2.5 Flash: Core Large Language Model.
+  - Tavily Search: Academic web retrieval.
+  - FastAPI & Uvicorn: High-performance REST API backend.
+  - Pydantic: Request/response schema validation.
+  - python-dotenv: Environment variable management.
+
+- **Frontend:**
+  - React 18 & TypeScript
+  - Vite: Ultra-fast build tool and local dev server with proxy support.
+  - Tailwind CSS: Modern utility-first styling.
+  - Lucide React: Modern iconography.
+  - react-markdown, remark-gfm, remark-breaks: Markdown parsing with table support and single-newline breaks.
+  - rehype-highlight: Code syntax highlighting.
   
 **InvestmentTracker**
    
