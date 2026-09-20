@@ -30,7 +30,7 @@ Travel Planning Agent is an AI-powered full-stack web application designed to si
   - **Containerization**: Docker & Docker Compose
   - **Testing**: Pytest, Jest, React Testing Library, Playwright
 
-**TravelPlanningAgent**
+**TutorAgent**
 
 *Overview & Goals:*
 
